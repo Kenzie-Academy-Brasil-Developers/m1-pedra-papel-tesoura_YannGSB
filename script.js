@@ -12,7 +12,6 @@ function analisaJogada(jogada1, jogada2) {
     (jogada1 === "Tesoura" && jogada2 === "Papel")
   ) {
     return "Jogador 1 venceu!";
-  } else{
-    return "Jogador 2 venceu!";
   }
+  return "Jogador 2 venceu!";
 }
